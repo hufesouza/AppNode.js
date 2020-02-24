@@ -4,7 +4,7 @@ const talk = require('./talk');
 const question = require('./talk/question');
 
 talk.intro();
-talk.hello("Dhiulia");
+talk.hello("Someone");
 
 const answer = question.ask("What's the meaning of life?");
 console.log(answer);
